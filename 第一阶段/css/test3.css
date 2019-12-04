@@ -1,0 +1,58 @@
+
+body{
+    padding: 25px;
+}
+img{
+    float: left;
+}
+.w{
+    background: rgb(238, 238, 238);
+    border: 1px solid rgb(153, 153, 153);
+    padding: 20px;
+    font-family: "微软雅黑";
+    height: 500px;
+
+}
+.left{
+    float: left;
+    padding: 15px;
+    background: white;
+    border: 1px solid rgb(153, 153, 153);
+    width: 155px;
+}
+.middle{
+    margin-left: 200px;
+    margin-right: 150px;
+    padding: 20px;
+    background: white;
+    border: 1px solid rgb(153, 153, 153);
+    
+}
+.right{
+    float: right;
+    width: 120px;
+    background: white;
+    border: 1px solid rgb(153, 153, 153);
+    padding-bottom: 20px;
+}
+.right img{
+    margin: 20px;
+    margin-bottom: 0px;
+    border: 1px solid rgb(153, 153, 153);
+}
+.middle h2{
+    margin-top: 0px;
+}
+.middle h4{
+    margin-top: 0;
+    margin-bottom: 10px;
+    font-size: large;
+}
+.middle p{
+    font-size: 15px;
+}
+.left p{
+    margin-left: 90px;
+    margin-top: 0;
+    font-weight: 700;
+}

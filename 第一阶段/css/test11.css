@@ -1,0 +1,51 @@
+*{padding: 0;margin: 0;}
+body{font-size: 14px;max-width: 540px;margin: 0 auto;background: #f2f2f2;}
+a{text-decoration: none;color: #000;}
+li{list-style: none;float: left;text-align: center;flex-wrap: wrap;}
+ul{display: flex;justify-content: space-between;}
+
+
+/* header */
+body>header{height: 62px;background: #91d4da;color: #fff;font-size: 18px;position: relative;line-height: 62px;width: 100%;}
+.goback{color: #fff;}
+header h1{text-align: center;font-size: 21px;}
+header a span{margin: 2px 3px;}
+header a{position: absolute;left: 10px;vertical-align: middle;}
+/* header end */
+
+/* nav */
+.w>img{display: block;}
+.w nav{margin: 25px 20px;}
+/* end */
+
+/* label */
+.label{height: 155px;background: #fff;}
+.label ul{padding: 25px 0;border-bottom: 2px solid rgb(223, 223, 223);margin: 0px 8px;}
+/* end */
+
+/* columns */
+.columns{background: #fff;}
+.columns ul li{width: 178px;border-right: 1px solid rgb(223, 223, 223);}
+.columns ul li{margin-bottom: 15px;line-height: 2em;}
+.columns ul li h3{font-weight: 400;}
+/* end */
+
+/* article */
+article{background: #fff;margin: 15px 0 0 0;padding: 0 10px;float: left;overflow: hidden;}
+article>header{height: 65px;border-bottom: 1px solid rgb(223, 223, 223);padding:0 10px;line-height: 65px;}
+article>section{width: 100%;float: left;}
+article>section>img{float: left;padding-top: 10px;}
+article>section>ul{display: block;}
+article>section>ul>li{width: 177px;height: 55px;line-height: 55px;background: rgb(223, 223, 223);margin: 10px;}
+
+
+.article{margin-top: 15px;float: left;overflow: hidden;width: 100%;background: #fff;}
+.article>:first-child{padding: 15px;}
+.article>article{margin: 0;border-bottom: 1px solid rgb(223, 223, 223);padding: 15px ;}
+.article img{float: left;margin-right: 10px;}
+.text{width: 348px;height: 108px;float: left;position: relative;}
+.text h3,.article>:last-child h3{font-weight: 400;}.text p{position: absolute;bottom: 0;color: rgb(204, 190, 196);}
+.article>:last-child h3{padding: 15px;font-weight: 400;}
+.article>:last-child{padding: 0;width: 100%;}
+.imgbox{display: flex;justify-content: space-evenly;}
+.article>:last-child p{color: rgb(204, 190, 196);padding: 15px;}

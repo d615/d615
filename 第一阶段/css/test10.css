@@ -1,0 +1,11 @@
+*{padding: 20px;margin: 0;}
+.w{border: 1px solid #000;height: 250px;display: flex;justify-content: space-around;align-items: center;box-sizing: border-box;}
+.box1{width: 150px;height: 120px;border: 1px solid red;}
+.box2{width: 120px;height: 130px;border: 1px solid red;}
+.box3{width: 150px;height: 50px;border: 1px solid red;}
+.box4{width: 120px;height: 150px;border: 1px solid green;}
+
+@media all and (max-width:640px){
+    .box4{order: -1;}
+    .w{flex-wrap: wrap;align-items: flex-start;}
+}
