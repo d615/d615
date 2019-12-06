@@ -15,7 +15,8 @@ header a{position: absolute;left: 10px;vertical-align: middle;}
 /* header end */
 
 /* nav */
-.w>img{display: block;width: 100%;}
+.w>img{display: block;}
+.img{width: 100%;}
 .w nav{margin: 25px 20px;}
 /* end */
 
